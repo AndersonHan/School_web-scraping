@@ -19,7 +19,7 @@ if r.status_code == 200:
         if item_name == None:break
         else:
             print(item_name.prettify())
-            #<a title= 後面就是標題內容 
+            #<a title= 後面即是標題內容 
 else:
     print(f'請求失敗：{r.status_code}')
 
